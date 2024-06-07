@@ -17,26 +17,14 @@ const cartItems = [
 ];
 
 const orderId = "#5207";
-const orderDate = "10 May, 2024";
+const orderDate = "10 May Sunday 2024";
 const coupon = "N/A";
 const subTotal = "30";
 
 const name = "Amirul Islam";
 const phone = "+8801761515810";
 
-const customerInfo = {
-  name: "Amirul Islam",
-  address: "58 Hoxton Park Road Liverpool, NSW 2170",
-  orderId: "#5207",
-};
-
 const discount = 0;
-
-const customerAddress = {
-  heading: "Deyaler Desh at Dumaresq Campbelltown on 12th May Sunday 6 PM",
-  address:
-    "12 May, 2024 at 06:00 PM Dumaresq Street Cinema, NSW - Dumaresq Cinema 3 4 Dumaresq St, Campbelltown, NSW 2560 Coupon Used : N/A",
-};
 
 const total = cartItems?.reduce((sum, item) => {
   return sum + item.price;
@@ -65,25 +53,25 @@ const ticketItems = [
 
 const showsDetails = {
   hall: {
-    name: "hall name",
+    name: "Cinema 7",
   },
   theater: {
-    name: "theater name",
+    name: "Dadi Cinema",
   },
   event: {
     name: "Toofan",
   },
   city: {
-    name: "city name",
+    name: "BlackTown",
   },
   state: {
-    name: "state name",
+    name: "Nsw",
   },
   country: {
-    name: "country name",
+    name: "Australia",
   },
   startTime: "06:00 PM",
-  date: "12 May, 2024",
+  date: "12 May Sunday 2024",
   OrderDate: {
     order: {
       createAt: "create At",
@@ -395,7 +383,7 @@ const message = `
               </tr>
               <tr>
                 <td colSpan="2">
-                  <p style="padding-bottom: 50px; border-bottom: 2px solid #999999;">Just show this at the venue for entry.</p>
+                  <p style="padding-bottom: 50px; border-bottom: 2px solid #999999;">Show this at the venue for entry.</p>
                 </td>
               </tr>
               <tr>
