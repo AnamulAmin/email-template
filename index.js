@@ -88,8 +88,6 @@ const message = `
 
 <head>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
@@ -109,16 +107,7 @@ const message = `
     }
 
     .invoiceTitle {
-
-      padding: 0.2rem 3rem;
-      border: none;
-      background-color: #fff;
-      font-size: 2.7rem;
-      font-weight: 700;
-      margin-top: 3rem;
-      padding-left: 0;
-      white-space: nowrap;
-      text-transform: uppercase
+      padding: 0.2rem 3rem; border: none; background-color: #fff; font-size: 2.7rem; font-weight: 700; margin-top: 3rem; padding-left: 0; white-space: nowrap; text-transform: uppercase;
     }
 
     .invoice_to {
@@ -136,7 +125,6 @@ const message = `
       left: 0;
       width: 100%;
     }
-
     .customerName,
     .phone {
       font-size: 16px;
@@ -144,14 +132,7 @@ const message = `
       margin: 0;
       padding: 0;
       color: rgb(102, 102, 102) padding-top: 60px;
-    }
-
-    .customerName {
-      font-size: 16px;
-      line-height: 1.4;
-      margin: 0;
-      padding: 0color:rgb(102, 102, 102);
-      width: 200px;
+      text-align: right
     }
 
     thead {
@@ -220,7 +201,7 @@ const message = `
             <tbody style'padding'>
               <tr>
                 <td align="left" data-id="__react-email-column" style="display:table-cell ">
-                  <button style="" class="invoiceTitle">This is your ticket</button>
+                  <h2 style="padding: 0.2rem 3rem; border: none; background-color: #fff; font-size: 2.7rem; font-weight: 700; margin-top: 3rem; padding-left: 0; white-space: nowrap; text-transform: uppercase;" class="invoiceTitle">This is your ticket</h2>
 
                   <p class="order_id">Order ID ${orderId} &nbsp; &nbsp; &nbsp; ${orderDate}</p>
                 </td>
@@ -230,13 +211,13 @@ const message = `
                     <tr>
                       <td align="right">
                         <p
-                          style="" class='invoice_to' >
+                          style="white-space: nowrap; text-align: right" class='invoice_to' >
                           Invoice To:</p>
                       </td>
                     </tr>
                     <tr>
                       <td align="right">
-                        <p class="customerName">${name}</p>
+                        <p class="customerName" >${name}</p>
                       </td>
                     </tr>
                     <tr>
