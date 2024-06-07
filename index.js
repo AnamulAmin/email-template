@@ -17,7 +17,7 @@ const cartItems = [
 ];
 
 const orderId = "#5207";
-const orderDate = "10 May Sunday 2024";
+const orderDate = "10 May Sunday, 2024";
 const coupon = "N/A";
 const subTotal = "30";
 
@@ -71,7 +71,7 @@ const showsDetails = {
     name: "Australia",
   },
   startTime: "06:00 PM",
-  date: "12 May Sunday 2024",
+  date: "12 May Sunday, 2024",
   OrderDate: {
     order: {
       createAt: "create At",
