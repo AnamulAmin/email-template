@@ -22,7 +22,7 @@ const coupon = "N/A";
 const subTotal = "30";
 
 const name = "Amirul Islam";
-const phone = "+8801761515810";
+const mobileNumber = "+8801761515810";
 
 const discount = 0;
 
@@ -241,7 +241,7 @@ const message = `
                     </tr>
                     <tr>
                       <td align="right">
-                        <p class="phone">${phone}</p>
+                        <p class="phone">${mobileNumber}</p>
                       </td>
                     </tr>
                   </table>
